@@ -31,8 +31,8 @@ body {
   input[type="text"],
   input[type="Sobrenome"],
   input[type="email"],
-  input[type="senha"],
-  input[type="Confirmar_senha"] {
+  input[type="passaword"],
+  input[type="Confirmar_passaword"] {
     width: 90%;
     padding: 10px;
     border: 1px solid #ccc;
