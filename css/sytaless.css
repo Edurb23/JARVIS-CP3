@@ -1,0 +1,61 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    background-color:#89fcb3;
+  }
+  
+  .container {
+    background-color: #e9fccf;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .h2 {
+    text-align: center;
+  }
+  
+  /* Estilos do formulário */
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin: 2%;
+  }
+  
+  input[type="text"],
+  input[type="Sobrenome"],
+  input[type="email"],
+  input[type="senha"],
+  input[type="Confirmar_senha"] {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .button {
+    padding: 10px 20px;
+    background-color: #b1fcb3;
+    border: solid 0.5px black;
+    color: #fff;
+    
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .button[type="reset"] {
+    background-color: #f44336;
+  }
+  
+  /* Estilos para ajustar o layout em dispositivos móveis */
+  @media (max-width: 480px) {
+    .container {
+      max-width: 100%;
+      padding: 10px;
+    }
+  }
