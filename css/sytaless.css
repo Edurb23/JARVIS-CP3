@@ -42,7 +42,7 @@ body {
   .button {
     padding: 10px 20px;
     background-color: #b1fcb3;
-    border: solid 0.5px pink;
+    border: solid 0.5px yellow;
     color:black;
     border-radius: 4px;
     cursor: pointer;
