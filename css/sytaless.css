@@ -31,11 +31,11 @@ body {
   input[type="text"],
   input[type="Sobrenome"],
   input[type="email"],
-  
+  input[type="passaword"],
   input[type="Confirmar_passaword"] {
     width: 90%;
     padding: 10px;
-    border: 1px solid goldenrod;
+    border: 1px solid black;
     border-radius: 4px;
   }
   
