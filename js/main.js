@@ -4,7 +4,7 @@
 const usuario1 = {
     nomeUsuario : "silvio",
     sobrenomeUsuario : "luiz",
-    emailUsuario :" silvio@email.com",
+    emailUsuario :"silvio@email.com",
     senhaUsuario : "00000",
     corfirmaSenha : "00000"
 }
@@ -12,7 +12,7 @@ const usuario1 = {
 const usuario2 = {
     nomeUsuario : "erick",
     sobrenomeUsuario : "lucca",
-    emailUsuario :" erick@email.com",
+    emailUsuario :"erick@email.com",
     senhaUsuario : "12345",
     corfirmaSenha : "12345"
 }
