@@ -35,14 +35,14 @@ addEventListener("click", (evento)=>{
         try{
                 listaDeUsuarios.forEach((usuario)=>{
 
-                    if(userInput.value == usuario.nomeUsuario && passInput.value == usuario.senhaUsuario){
+                    if(nomeInput.value == usuario.nomeUsuario && passInput.value == usuario.senhaUsuario && sobrenomeInput.value == usuario.sobrenomeUsuario && emailInput.value == usuario.emailUsuario && corfirmaInput.value == usuario.corfirmaSenha ){
                         throw "USUÁRIO VALIDADO!";
                     
                         
                     }
                 });
 
-                throw "USUÁRIO OU SENHA INCORRETOS!";
+                 throw "USUÁRIO OU SENHA INCORRETOS!";
     }catch(err){
         if(err == "USUÁRIO VALIDADO!"){
             console.log("USUÁRIO VALIDADO!")

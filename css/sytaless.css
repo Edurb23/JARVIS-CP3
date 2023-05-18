@@ -44,14 +44,14 @@ body {
     background-color: #b1fcb3;
     border: solid 0.5px black;
     color:black;
-    
     border-radius: 4px;
     cursor: pointer;
     margin: 10px;
+   
   }
   
   .button[type="reset"] {
-    background-color: #f44336;
+    background-color:  #b1fcb3;
   }
   
   /* Estilos para ajustar o layout em dispositivos móveis */
