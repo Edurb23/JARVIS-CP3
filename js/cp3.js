@@ -3,7 +3,7 @@
 //CRIANDO OBJETOS
 const usuario1 = {
     nomeUsuario : "silvio",
-    sobrenomeUsuario : "luiz",
+    sobrenomeUsuario : "aranha",
     emailUsuario :"silvio@email.com",
     senhaUsuario : "000000",
     corfirmaSenha : "000000"
