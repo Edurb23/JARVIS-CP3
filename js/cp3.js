@@ -3,18 +3,18 @@
 //CRIANDO OBJETOS
 const usuario1 = {
     nomeUsuario : "silvio",
-    sobrenomeUsuario : "luiz",
-    emailUsuario :" silvio@email.com",
-    senhaUsuario : "00000",
-    corfirmaSenha : "00000"
+    sobrenomeUsuario : "aranha",
+    emailUsuario :"silvio@email.com",
+    senhaUsuario : "000000",
+    corfirmaSenha : "000000"
 }
 
 const usuario2 = {
-    nomeUsuario : "erick",
-    sobrenomeUsuario : "lucca",
-    emailUsuario :" erick@email.com",
-    senhaUsuario : "12345",
-    corfirmaSenha : "12345"
+    nomeUsuario : "renato",
+    sobrenomeUsuario : "araujo",
+    emailUsuario :"renato@email.com",
+    senhaUsuario : "123456",
+    corfirmaSenha : "123459"
 }
 
 //LISTA DE USUÁRIOS
@@ -52,4 +52,16 @@ addEventListener("click", (evento)=>{
     }
 
         }
+});
+
+
+const darkModeToggle = document.getElementById('dark-mode-toggle');
+const body = document.body;
+const elementsToToggle = document.getElementsByClassName('box');
+
+darkModeToggle.addEventListener('click', function() {
+  body.classList.toggle('dark-mode');
+  for (let i = 0; i < elementsToToggle.length; i++) {
+    elementsToToggle[i].classList.toggle('dark-mode');
+  }
 });
